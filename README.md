@@ -40,5 +40,61 @@ The goal of this project is to design an **integrated analytics solution** that:
 
 ---
 
-## 📂 Project Structure
+## Workflow
+
+### 1. SQL Analysis (R)
+- SQL queries executed using `sqldf`  
+- Identifies failure rates, delays, and operational bottlenecks  
+
+### 2. Statistical Analysis (R)
+- Data manipulation using `dplyr`  
+- Visualisation using `ggplot2`  
+- Identifies trends and performance gaps  
+
+### 3. Data Processing (Python)
+- Data cleaning and transformation  
+- Additional analysis and charting  
+
+### 4. NoSQL Database Design (MongoDB)
+- Document-based modelling for:
+  - Complaints  
+  - Deliveries & incidents  
+  - App event sessions  
+- Optimised for flexible, nested, and event-driven data  
+
+---
+
+## Key Insights (Summary)
+- Central zone hubs show significantly higher failure rates  
+- Operational inefficiencies vary by hub and zone  
+- Customer complaints are strongly linked to delivery delays  
+- Platform issues create direct financial impact  
+- Data fragmentation limits visibility and decision-making  
+
+---
+
+## Solution Approach
+The project combines:
+- **Relational analysis (SQL)** for structured data  
+- **Statistical modelling (R)** for deeper insights  
+- **Python processing** for flexibility and scalability  
+- **NoSQL (MongoDB)** for handling complex data  
+
+This hybrid approach enables a **complete view of operations** and supports data-driven decisions.
+
+---
+
+## Notes
+- Data is loaded via Google Drive or the `/data` folder  
+- Each notebook can run independently  
+- MongoDB Atlas is used for cloud-based NoSQL implementation  
+
+
+---
+
+## Conclusion
+This project demonstrates how combining SQL, R, Python, and NoSQL technologies can solve real-world data challenges by integrating fragmented systems, uncovering hidden inefficiencies, and improving operational performance.
+
+
+
 
