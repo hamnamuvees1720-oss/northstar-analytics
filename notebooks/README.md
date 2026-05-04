@@ -4,7 +4,7 @@ This folder contains all analytical notebooks developed for the **NorthStar Urba
 
 ---
 
-## 📂 Notebook Structure
+## Notebook Structure
 
 ### 1. 01_sql_in_r.ipynb
 This notebook uses SQL queries executed within R (via the `sqldf` package) to analyse structured operational data.  
@@ -30,7 +30,7 @@ It models complex, semi-structured data such as complaints, delivery incidents, 
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The notebooks together provide a complete analytics workflow, combining:
 - SQL-based querying
@@ -42,7 +42,7 @@ This integrated approach supports better understanding of operational inefficien
 
 ---
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 
 - R (sqldf, dplyr, ggplot2)
 - Python
@@ -51,7 +51,7 @@ This integrated approach supports better understanding of operational inefficien
 
 ---
 
-## 📌 Notes
+## Notes
 
 - All datasets are loaded from Google Drive or the `/data` folder.
 - Each notebook is designed to be run independently but contributes to the overall analysis.
